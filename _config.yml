@@ -1,0 +1,46 @@
+github_url: https://github.com/ziadmatni/CS64-S26.github.io
+
+start_week: 1
+start_date: 2026-03-30 00:00:00.00-7:00
+num_weeks: 10
+extra_exam_week: true
+
+instructor_url: https://ziadmatni.github.io/
+
+cal_dates: >
+  [ 
+  ]
+
+course: "CS64"
+qtr: "S26"
+quarter: "Spring 2026"
+
+kramdown:
+   parse_block_html: true
+
+exclude:
+   - vendor
+
+timezone: America/Los_Angeles
+
+collections:
+  assignments:
+    output: true
+    permalink: /assignments/:path/
+    last_before: false
+  readings:
+    output: true
+    permalink: /readings/:path/
+  democode:
+    output: true
+    permalink: /democode/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
